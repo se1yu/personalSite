@@ -1,0 +1,7 @@
+
+Box Model Notes
+    padding:invis space around content inside html element. spacing from border and content inside. can do overall padding or specxifics for top + other sides
+    
+    Border: border (style,width,color) goes around entire padding + contetn
+
+    Margin: transparent area around outside of border. again can do overall margin or specxifics for top + other sides 

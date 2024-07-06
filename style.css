@@ -1,29 +1,56 @@
 /* STYLE SECTIONING TAGS */
-body {
- background-color: #c0c0d3; 
- text-align:center;
-font-family: 'Helvectica', Times, serif;
+
+*{
+  margin:0px;
+  padding:0px;
 }
 
-/* STYLE TEXT */
+body{
+ background-color: #c0c0d3; 
+ text-align:center; /* alinging the element tag that contains the image will align the image as well. dont align the image tag itself*/
+}
 
+header{
+  background-color: #7c80b1;
+  max-width:100%;
+}
+/* STYLE TEXT */
+main{
+  font-family: 'Helvectica', Times, serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+}
 h1 {
   color: #e7eeee;
+  padding-bottom:5px;
 }
 
 /* STYLE IMAGES */
+.meImg{
+  margin-top:1em;
+  border-radius:500px;
+  width:50%;
+  max-width:200px;
+  height:auto;
+  object-fit:cover;
+}
 img{
   max-width:30%;
   max-height:30%;
   border-radius:16px;
+  border: 3px solid #e7eeee;
+  margin-bottom:4em;
 }
+
 .needMid {
   text-align: center;
   align-content:center;
 }
-
-.keshiImg{
-  border-radius: 16px;
+.aboutMe{
+  text-align:left;
 }
+
 
 /* STYLE NAV BAR */

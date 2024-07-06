@@ -13,6 +13,7 @@ body{
 header{
   background-color: #7c80b1;
   max-width:100%;
+  padding:10px;
 }
 /* STYLE TEXT */
 main{
@@ -28,13 +29,18 @@ h1 {
 }
 
 /* STYLE IMAGES */
-.meImg{
+#meImg{
   margin-top:1em;
   border-radius:500px;
   width:50%;
   max-width:200px;
   height:auto;
   object-fit:cover;
+  margin-bottom:25px;
+}
+#introText{
+  margin-bottom:27px;
+  color: #e7eeee;
 }
 img{
   max-width:30%;
@@ -44,13 +50,43 @@ img{
   margin-bottom:4em;
 }
 
-.needMid {
-  text-align: center;
-  align-content:center;
-}
-.aboutMe{
+#aboutMe{
   text-align:left;
 }
-
+.portfolioImages{
+  margin-top:1em;
+  border-radius:30px;
+}
 
 /* STYLE NAV BAR */
+ul{
+  list-style-type:none;
+  background-color:#95aed5;
+  overflow:hidden;
+  padding:1em;
+  width:100%;
+}
+
+li{
+  display:inline;
+}
+
+/* anchor in list elemetnt*/
+li a{
+  text-decoration:none;
+  color:#e4ecec;
+  font-size:1.3em;
+  padding:1em;
+}
+
+/* when hover anchor in li, itll change color */
+li a:hover{
+  background-color:#7c80b1;
+}
+#sampleProjects{
+  margin-top:1em;
+  margin-bottom:2em;
+}
+h1{
+  padding-top: 20px;
+}

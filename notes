@@ -5,3 +5,12 @@ Box Model Notes
     Border: border (style,width,color) goes around entire padding + contetn
 
     Margin: transparent area around outside of border. again can do overall margin or specxifics for top + other sides 
+
+
+Id can be used one time in an html 
+A class can select multiple at a time
+
+rules written later in a css file wil overwrite a previous rule 
+the more specific element selector used, the rule will override a less specific one written later in a css file 
+
+most to least specific (Id , class, element (#hi, .imagez, <body>))

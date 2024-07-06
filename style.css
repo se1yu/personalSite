@@ -1,0 +1,22 @@
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: lightcyan; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: navy;
+}
+
+/* STYLE IMAGES */
+.needMid {
+  text-align: center;
+  align-content:center;
+}
+
+.keshiImg{
+  border-radius: 16px;
+}
+
+/* STYLE NAV BAR */
